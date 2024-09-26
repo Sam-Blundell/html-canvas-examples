@@ -39,3 +39,9 @@ The result can be assigned to a variable which then exposes all the 2D API metho
 Like Many 2D graphics systems the coordinate system of the Canvas API has its origin `(0,0)` in the top-left corner of the canvas. The y-axis increases downwards.
 
 ![Coordinate System Example](./coordinateExample.png)
+
+## Width & Height
+
+The pixel width and pixel height attributes are set as attributes on the element rather than styled with CSS.
+
+You can apply seperate CSS styling but if this differs from the attribute settings the image will be scaled appropriately and might look distorted.
